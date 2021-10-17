@@ -1,0 +1,118 @@
+/* A-AL.css V1.0 ©Alex Fife 17.10.2021 ©Alex-algorithms™ | email alexhfife@outlook.com for more details */
+/*extract from normalise.css*/
+/* fonts */
+.a-al-verdana{font-family:verdana}
+.a-al-arial{font-family:arial}
+/* padding section */
+.a-al-padding-40{padding:40px}
+.a-al-padding-50{padding:50px}
+.a-al-padding-60{padding:60px}
+.a-al-padding-70{padding:70px}
+.a-al-padding-80{padding:80px}
+.a-al-padding-90{padding:90px}
+/* background colors section */
+.a-al-red{background-color:red}
+.a-al-blue{background-color:blue}
+.a-al-teal{background-color:teal}
+.a-al-AliceBlue{background-color:AliceBlue}
+.a-al-Aqua{background-color:Aqua}
+.a-al-DarkBlue{background-color:DarkBlue}
+.a-al-gray{background-color:gray}
+.a-al-lgray{background-color:lightgray}
+.a-al-yellow{background-color: yellow}
+/* font colors section */ 
+.a-al-red-font{color:red}
+.a-al-blue-font{color:blue}
+.a-al-teal-font{color:teal}
+.a-al-AliceBlue-font{color:AliceBlue}
+.a-al-Aqua-font{color:Aqua}
+.a-al-DarkBlue-font{color:DarkBlue}
+.a-al-gray-font{color:gray}
+.a-al-lgray-font{color:lightgray}
+.a-al-yellow-font{color: yellow}
+/* headers */
+.a-al-header-mini{font-size:200%}
+.a-al-header-jumbo{font-size:300%}
+.a-al-header-exjumbo{font-size:400%}
+/* paragraphs */
+.a-al-para-mini{font-size:100%}
+.a-al-para-jumbo{font-size:150%}
+.a-al-para-exjumbo{font-size:215%}
+/* bars */
+.a-al-bar{width:100%;height:70px;}
+.a-al-bar-jumbo{width:100%;height:100px;}
+.a-al-bar-mini{width:100%;height:60px;}
+/* boxes */
+.a-al-box-mini{width:70%;height:150px;}
+.a-al-box{width:100%;height:150px;}
+.a-al-box-jumbo{width:100%;height:200px;}
+/* float */
+.a-al-float-left{float:left}
+.a-al-float-right{float:right}
+.a-al-float-top{float:top}
+.a-al-float-bottom{float:bottom}
+/* extra bold and strong determiners */
+.a-al-vstrong{font-weight: 600;}
+.a-al-strong{font-weight: 500;}
+.a-al-mstrong{font-weight:400;}
+/* links */
+.a-al-a-blue {color: blue;}
+.a-al-a-red {color: red;}
+.a-al-a-teal {color: teal;}
+.a-al-a-aliceblue {color: aliceblue;}
+.a-al-a-aqua {color: aqua;}
+.a-al-a-darkblue {color: darkblue;}
+.a-al-a-gray {color: gray;}
+.a-al-a-lgray {color: lightgray;}
+.a-al-a-yellow {color: yellow;}
+/* images */
+.img {display: block}
+.a-al-img-detail {animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;background: transparent;border: 10px solid rgba(0, 0, 0, 0.12);border-radius: 4px;display: block;margin: 1.3em auto;max-width: 95%;
+}
+/*extract*/
+h1 {font-size: 2em;margin: 0.67em 0;}
+hr {box-sizing: content-box; /* 1 */height: 0; /* 1 */overflow: visible; /* 2 */}
+pre {font-family: monospace, monospace; /* 1 */font-size: 1em; /* 2 */}
+a {background-color: transparent;}
+code,kbd,samp {font-family: monospace, monospace; /* 1 */font-size: 1em; /* 2 */}
+sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}
+sub {bottom: -0.25em;}
+sup {top: -0.5em;}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */}
+button,
+input { /* 1 */overflow: visible;}
+button,select { /* 1 */text-transform: none;}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {-webkit-appearance: button;}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {border-style: none;padding: 0;}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {outline: 1px dotted ButtonText;}
+fieldset {padding: 0.35em 0.75em 0.625em;}
+legend {box-sizing: border-box; color: inherit;display: table;max-width: 100%; padding: 0; white-space: normal; }
+progress {vertical-align: baseline;}
+textarea {overflow: auto;}
+[type="checkbox"],
+[type="radio"] {box-sizing: border-box; /* 1 */padding: 0; /* 2 */}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {height: auto;}
+[type="search"] {-webkit-appearance: textfield; /* 1 */outline-offset: -2px; /* 2 */}
+[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+::-webkit-file-upload-button {  -webkit-appearance: button; /* 1 */font: inherit; /* 2 */}
+details {display: block;}
+summary {display: list-item;}
+template {display: none;}
+[hidden] {display: none;}
